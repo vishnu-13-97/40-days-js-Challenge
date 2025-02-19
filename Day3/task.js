@@ -16,6 +16,8 @@ let CTC = annualSalary+bonus;
 
 console.log("CTC Per Annum with a bonus ",CTC);
 
+// Traffic Signal
+
 let light = "Green" 
 
 let traffic =  light === "Red" ? "Stop" : "Go"
