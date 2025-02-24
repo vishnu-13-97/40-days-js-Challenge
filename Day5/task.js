@@ -1,5 +1,5 @@
 
-// Task 1
+// Task 1 Pyramid Pattern 
 for (i = 1; i <= 5; i++) {
     let r=""
     for(j=1;j<=i;j++){
@@ -10,14 +10,14 @@ for (i = 1; i <= 5; i++) {
   
 
 
-// Task 2
+// Task 2 Multiplication Table (Using for loop)
 let n = 3;
 for (i=1;i<=10;i++){
   console.log("3 * ",i, "=" , n*i)
   
 }
 
-// Task 3
+// Task 3 summation of all odd numbers between 1 to 500
 let sum =0;
 for(let i = 1;i<=500;i++){
   if(i%2!==0){
@@ -27,7 +27,7 @@ for(let i = 1;i<=500;i++){
   console.log("sum of all odd numbers between 1-500 is",sum)
 
 
-// Task 4
+// Task 4  Skipping Multiples of 3
 
 
 for (i=1;i<=20;i++){
@@ -37,7 +37,7 @@ for (i=1;i<=20;i++){
 }
 
 
-// // Task 5
+// // Task 5 Reverse Digits of a Number (Using while loop)
 
  let numbers = "12345";
  let result = ""
