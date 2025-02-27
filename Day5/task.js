@@ -41,11 +41,22 @@ for (i=1;i<=20;i++){
 
  let numbers = "12345";
  let result = ""
- let i = numbers.length
+  i = numbers.length
  while(i>=0){
     result += numbers.charAt(i)
     i--
  }
  console.log(result);
 
+
+
+ 
+
+// Task 6 understanding on the difefrences between for, while, and do-while loop. Create their flow charts.
+
+// for loop used for the number of iteration is known
+
+// whileloop used for the number of iteration is unknown but want to iterate on a condition
+
+// do while loop used for whether the conditon is true or false , one iteration will execute 
 
