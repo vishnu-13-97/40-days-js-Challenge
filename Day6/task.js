@@ -83,7 +83,7 @@ console.log(vovelscount("JavaScript"));
 
 // Task 6 Capitalize the First Letter of Each Word in a Sentence
 
-let sentence = "hello my name is vishnu"
+function capitalize (sentence){
 let capitalize =true;
 let final ="";
 for(let i = 0; i<=sentence.length;i++){
@@ -98,9 +98,14 @@ for(let i = 0; i<=sentence.length;i++){
   }
   // console.log(final);
 }
+  return final
+}
 
+ let sentence = "hello my name is vishnu"
+  sd =capitalize(sentence);
+ 
+console.log(sd);
 
-console.log(final);
 
 // Task 7 IIFE
 
